@@ -15,7 +15,7 @@
 - (NSURL *)sourceURLForBridge:(RCTBridge *)bridge
 {
     NSURL *url = [RNPluginConfig bundleUrl];
-    if (!url) {
+    if (url != nil) {
         return url;
     }
 #if DEBUG
