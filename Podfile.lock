@@ -1,0 +1,97 @@
+PODS:
+  - boost-for-react-native (1.63.0)
+  - DoubleConversion (1.1.6)
+  - Folly (2018.10.22.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
+  - glog (0.3.5)
+  - React/Core (0.59.3):
+    - yoga (= 0.59.3.React)
+  - React/CxxBridge (0.59.3):
+    - Folly (= 2018.10.22.00)
+    - React/Core
+    - React/cxxreact
+    - React/jsiexecutor
+  - React/cxxreact (0.59.3):
+    - boost-for-react-native (= 1.63.0)
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+    - React/jsinspector
+  - React/DevSupport (0.59.3):
+    - React/Core
+    - React/RCTWebSocket
+  - React/fishhook (0.59.3)
+  - React/jsi (0.59.3):
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+  - React/jsiexecutor (0.59.3):
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+    - React/cxxreact
+    - React/jsi
+  - React/jsinspector (0.59.3)
+  - React/RCTAnimation (0.59.3):
+    - React/Core
+  - React/RCTBlob (0.59.3):
+    - React/Core
+  - React/RCTImage (0.59.3):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.59.3):
+    - React/Core
+  - React/RCTNetwork (0.59.3):
+    - React/Core
+  - React/RCTText (0.59.3):
+    - React/Core
+  - React/RCTWebSocket (0.59.3):
+    - React/Core
+    - React/fishhook
+    - React/RCTBlob
+  - ReactNativePlugin (0.59.3):
+    - DoubleConversion (= 1.1.6)
+    - Folly (= 2018.10.22.00)
+    - glog (= 0.3.5)
+    - React/Core (= 0.59.3)
+    - React/CxxBridge (= 0.59.3)
+    - React/DevSupport (= 0.59.3)
+    - React/RCTAnimation (= 0.59.3)
+    - React/RCTImage (= 0.59.3)
+    - React/RCTLinkingIOS (= 0.59.3)
+    - React/RCTNetwork (= 0.59.3)
+    - React/RCTText (= 0.59.3)
+    - React/RCTWebSocket (= 0.59.3)
+    - yoga (= 0.59.3.React)
+  - yoga (0.59.3.React)
+
+DEPENDENCIES:
+  - ReactNativePlugin (from `.`)
+
+SPEC REPOS:
+  https://github.com/iossocket/TWRepo.git:
+    - boost-for-react-native
+    - DoubleConversion
+    - Folly
+    - glog
+    - React
+    - yoga
+
+EXTERNAL SOURCES:
+  ReactNativePlugin:
+    :path: "."
+
+SPEC CHECKSUMS:
+  boost-for-react-native: 34fb5e81e639b9bf106cf91bccd74a4a4a6a9404
+  DoubleConversion: f667477bface883238976991f46105fcacc96d56
+  Folly: 391015f9b49dcda4ab622abb43ee71ab77c96269
+  glog: 3910be5a35ef6ebad63f2cdd0c6d1ccf6cf651d1
+  React: 0469a03bca152a1028d6b619891edb2ada002e09
+  ReactNativePlugin: 5a2b898310502d83cd30fd8549475bdded638a00
+  yoga: 33adfb1d1c5a921240262365300e3853de93fca1
+
+PODFILE CHECKSUM: f9968e754132f3206179aaadc93c062f3cbdae53
+
+COCOAPODS: 1.6.1
