@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5011589922D21C8D00056099 /* RNBridgeSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5011589822D21C8D00056099 /* RNBridgeSpec.m */; };
+		5011589B22D21E1F00056099 /* RNContrainerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5011589A22D21E1F00056099 /* RNContrainerSpec.m */; };
+		5011589D22D21EFC00056099 /* RNPluginConfigSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5011589C22D21EFC00056099 /* RNPluginConfigSpec.m */; };
 		6673683AE115916AC1C168EA /* libPods-ReactNativePlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3EB3725B296F4D7E0EAC1B /* libPods-ReactNativePlugin.a */; };
 		CBF4084873561767A115E148 /* libPods-ReactNativePluginTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8092DF0BF207B76BEA31D66 /* libPods-ReactNativePluginTests.a */; };
 		D9C9584F22682C620062D41D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C9584E22682C620062D41D /* AppDelegate.m */; };
@@ -33,6 +35,8 @@
 		5011588E22D21C0F00056099 /* ReactNativePluginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactNativePluginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5011589222D21C0F00056099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5011589822D21C8D00056099 /* RNBridgeSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNBridgeSpec.m; sourceTree = "<group>"; };
+		5011589A22D21E1F00056099 /* RNContrainerSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNContrainerSpec.m; sourceTree = "<group>"; };
+		5011589C22D21EFC00056099 /* RNPluginConfigSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNPluginConfigSpec.m; sourceTree = "<group>"; };
 		A0C9C5C51D71156DA9773887 /* Pods-ReactNativePlugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativePlugin.release.xcconfig"; path = "Target Support Files/Pods-ReactNativePlugin/Pods-ReactNativePlugin.release.xcconfig"; sourceTree = "<group>"; };
 		A231613F1704199EF0CBA7EB /* Pods-ReactNativePlugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativePlugin.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativePlugin/Pods-ReactNativePlugin.debug.xcconfig"; sourceTree = "<group>"; };
 		BBCAAA506794CBC0F391BF42 /* Pods-ReactNativePluginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativePluginTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativePluginTests/Pods-ReactNativePluginTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -76,6 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				5011589822D21C8D00056099 /* RNBridgeSpec.m */,
+				5011589A22D21E1F00056099 /* RNContrainerSpec.m */,
+				5011589C22D21EFC00056099 /* RNPluginConfigSpec.m */,
 				5011589222D21C0F00056099 /* Info.plist */,
 			);
 			path = ReactNativePluginTests;
@@ -289,6 +295,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5011589922D21C8D00056099 /* RNBridgeSpec.m in Sources */,
+				5011589D22D21EFC00056099 /* RNPluginConfigSpec.m in Sources */,
+				5011589B22D21E1F00056099 /* RNContrainerSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
